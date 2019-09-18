@@ -1,0 +1,3 @@
+/home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles/bd2_proyecto1.dir
+/home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles/edit_cache.dir

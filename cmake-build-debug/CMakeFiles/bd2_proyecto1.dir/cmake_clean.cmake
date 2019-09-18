@@ -1,0 +1,10 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/bd2_proyecto1.dir/main.cpp.o"
+  "bd2_proyecto1.pdb"
+  "bd2_proyecto1"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/bd2_proyecto1.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
