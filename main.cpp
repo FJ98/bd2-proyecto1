@@ -22,7 +22,7 @@ int main() {
     string s = "12";
 
     cout << stoi(s);
-    cout << sizeof(s);
+    cout << s.size();
 
   //  Archivo* file = new Archivo;
     //string file = "Persona";

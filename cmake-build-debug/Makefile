@@ -48,10 +48,10 @@ RM = /snap/clion/83/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniel/Documents/BD2/Proyecto1/bd2-proyecto1
+CMAKE_SOURCE_DIR = /home/felix/bd2-proyecto1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniel/Documents/BD2/Proyecto1/bd2-proyecto1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/felix/bd2-proyecto1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/BD2/Proyecto1/bd2-proyecto1/cmake-build-debug/CMakeFiles /home/daniel/Documents/BD2/Proyecto1/bd2-proyecto1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles /home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/BD2/Proyecto1/bd2-proyecto1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -204,6 +204,33 @@ Record.cpp.s:
 	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/Record.cpp.s
 .PHONY : Record.cpp.s
 
+archivo.o: archivo.cpp.o
+
+.PHONY : archivo.o
+
+# target to build an object file
+archivo.cpp.o:
+	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o
+.PHONY : archivo.cpp.o
+
+archivo.i: archivo.cpp.i
+
+.PHONY : archivo.i
+
+# target to preprocess a source file
+archivo.cpp.i:
+	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/archivo.cpp.i
+.PHONY : archivo.cpp.i
+
+archivo.s: archivo.cpp.s
+
+.PHONY : archivo.s
+
+# target to generate assembly for a file
+archivo.cpp.s:
+	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/archivo.cpp.s
+.PHONY : archivo.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -276,6 +303,9 @@ help:
 	@echo "... Record.o"
 	@echo "... Record.i"
 	@echo "... Record.s"
+	@echo "... archivo.o"
+	@echo "... archivo.i"
+	@echo "... archivo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

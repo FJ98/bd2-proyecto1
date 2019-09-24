@@ -23,4 +23,6 @@ public:
 };
 
 
+
+
 #endif //BD2_PROYECTO1_RANDOMACCESS_H

@@ -1,16 +1,17 @@
 // Created by felix on 9/23/19.
 #include "RandomAccess.h"
 
-RandomAccess::RandomAccess(std::string fileName) {
-    this->_fileName = fileName;
-    this->_indexName = fileName + "_ind";
+template<typename T>
+RandomAccess<T>::RandomAccess(std::string fileName) {
+
 }
 
-bool RandomAccess::insert() {
-
+template<typename T>
+bool RandomAccess<T>::insert(Record obj) {
     return false;
 }
 
-bool RandomAccess::search(int key) {
+template<typename T>
+bool RandomAccess<T>::search(T key) {
     return false;
 }
