@@ -83,19 +83,73 @@ CMakeFiles/bd2_proyecto1.dir/manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bd2_proyecto1.dir/manager.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel/Documents/BD2/Proyecto1/bd2-proyecto1/manager.cpp -o CMakeFiles/bd2_proyecto1.dir/manager.cpp.s
 
+CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.o: CMakeFiles/bd2_proyecto1.dir/flags.make
+CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.o: ../DynamicHash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.o -c /home/felix/bd2-proyecto1/DynamicHash.cpp
+
+CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/felix/bd2-proyecto1/DynamicHash.cpp > CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.i
+
+CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/felix/bd2-proyecto1/DynamicHash.cpp -o CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.s
+
+CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.o: CMakeFiles/bd2_proyecto1.dir/flags.make
+CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.o: ../RandomAccess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.o -c /home/felix/bd2-proyecto1/RandomAccess.cpp
+
+CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/felix/bd2-proyecto1/RandomAccess.cpp > CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.i
+
+CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/felix/bd2-proyecto1/RandomAccess.cpp -o CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.s
+
+CMakeFiles/bd2_proyecto1.dir/Record.cpp.o: CMakeFiles/bd2_proyecto1.dir/flags.make
+CMakeFiles/bd2_proyecto1.dir/Record.cpp.o: ../Record.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bd2_proyecto1.dir/Record.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bd2_proyecto1.dir/Record.cpp.o -c /home/felix/bd2-proyecto1/Record.cpp
+
+CMakeFiles/bd2_proyecto1.dir/Record.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bd2_proyecto1.dir/Record.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/felix/bd2-proyecto1/Record.cpp > CMakeFiles/bd2_proyecto1.dir/Record.cpp.i
+
+CMakeFiles/bd2_proyecto1.dir/Record.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bd2_proyecto1.dir/Record.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/felix/bd2-proyecto1/Record.cpp -o CMakeFiles/bd2_proyecto1.dir/Record.cpp.s
+
 # Object files for target bd2_proyecto1
 bd2_proyecto1_OBJECTS = \
 "CMakeFiles/bd2_proyecto1.dir/main.cpp.o" \
+<<<<<<< HEAD
 "CMakeFiles/bd2_proyecto1.dir/manager.cpp.o"
+=======
+"CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.o" \
+"CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.o" \
+"CMakeFiles/bd2_proyecto1.dir/Record.cpp.o"
+>>>>>>> origin/master
 
 # External object files for target bd2_proyecto1
 bd2_proyecto1_EXTERNAL_OBJECTS =
 
 bd2_proyecto1: CMakeFiles/bd2_proyecto1.dir/main.cpp.o
+<<<<<<< HEAD
 bd2_proyecto1: CMakeFiles/bd2_proyecto1.dir/manager.cpp.o
 bd2_proyecto1: CMakeFiles/bd2_proyecto1.dir/build.make
 bd2_proyecto1: CMakeFiles/bd2_proyecto1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daniel/Documents/BD2/Proyecto1/bd2-proyecto1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bd2_proyecto1"
+=======
+bd2_proyecto1: CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.o
+bd2_proyecto1: CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.o
+bd2_proyecto1: CMakeFiles/bd2_proyecto1.dir/Record.cpp.o
+bd2_proyecto1: CMakeFiles/bd2_proyecto1.dir/build.make
+bd2_proyecto1: CMakeFiles/bd2_proyecto1.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable bd2_proyecto1"
+>>>>>>> origin/master
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bd2_proyecto1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

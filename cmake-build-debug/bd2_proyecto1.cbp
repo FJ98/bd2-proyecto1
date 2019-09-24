@@ -84,7 +84,29 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+<<<<<<< HEAD
 		<Unit filename="/home/daniel/Documents/BD2/Proyecto1/bd2-proyecto1/DataFile.h">
+=======
+		<Unit filename="/home/felix/bd2-proyecto1/DynamicHash.cpp">
+			<Option target="bd2_proyecto1"/>
+		</Unit>
+		<Unit filename="/home/felix/bd2-proyecto1/DynamicHash.h">
+			<Option target="bd2_proyecto1"/>
+		</Unit>
+		<Unit filename="/home/felix/bd2-proyecto1/RandomAccess.cpp">
+			<Option target="bd2_proyecto1"/>
+		</Unit>
+		<Unit filename="/home/felix/bd2-proyecto1/RandomAccess.h">
+			<Option target="bd2_proyecto1"/>
+		</Unit>
+		<Unit filename="/home/felix/bd2-proyecto1/Record.cpp">
+			<Option target="bd2_proyecto1"/>
+		</Unit>
+		<Unit filename="/home/felix/bd2-proyecto1/Record.h">
+			<Option target="bd2_proyecto1"/>
+		</Unit>
+		<Unit filename="/home/felix/bd2-proyecto1/main.cpp">
+>>>>>>> origin/master
 			<Option target="bd2_proyecto1"/>
 		</Unit>
 		<Unit filename="/home/daniel/Documents/BD2/Proyecto1/bd2-proyecto1/HeaderFile.h">

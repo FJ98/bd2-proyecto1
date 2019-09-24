@@ -6,6 +6,7 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/daniel/Documents/BD2/Proyecto1/bd2-proyecto1/DataFile.h
 bits/stdc++.h
 -
@@ -64,5 +65,11 @@ archivo.h
 bits/stdc++.h
 -
 fstream
+=======
+/home/felix/bd2-proyecto1/main.cpp
+bits/stdc++.h
+-
+utility
+>>>>>>> origin/master
 -
 
