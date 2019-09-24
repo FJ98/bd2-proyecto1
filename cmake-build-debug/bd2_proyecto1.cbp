@@ -84,6 +84,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/felix/bd2-proyecto1/DynamicHash.cpp">
+			<Option target="bd2_proyecto1"/>
+		</Unit>
+		<Unit filename="/home/felix/bd2-proyecto1/DynamicHash.h">
+			<Option target="bd2_proyecto1"/>
+		</Unit>
+		<Unit filename="/home/felix/bd2-proyecto1/RandomAccess.cpp">
+			<Option target="bd2_proyecto1"/>
+		</Unit>
+		<Unit filename="/home/felix/bd2-proyecto1/RandomAccess.h">
+			<Option target="bd2_proyecto1"/>
+		</Unit>
+		<Unit filename="/home/felix/bd2-proyecto1/Record.cpp">
+			<Option target="bd2_proyecto1"/>
+		</Unit>
+		<Unit filename="/home/felix/bd2-proyecto1/Record.h">
+			<Option target="bd2_proyecto1"/>
+		</Unit>
 		<Unit filename="/home/felix/bd2-proyecto1/main.cpp">
 			<Option target="bd2_proyecto1"/>
 		</Unit>

@@ -123,6 +123,87 @@ bd2_proyecto1/fast:
 	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/build
 .PHONY : bd2_proyecto1/fast
 
+DynamicHash.o: DynamicHash.cpp.o
+
+.PHONY : DynamicHash.o
+
+# target to build an object file
+DynamicHash.cpp.o:
+	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.o
+.PHONY : DynamicHash.cpp.o
+
+DynamicHash.i: DynamicHash.cpp.i
+
+.PHONY : DynamicHash.i
+
+# target to preprocess a source file
+DynamicHash.cpp.i:
+	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.i
+.PHONY : DynamicHash.cpp.i
+
+DynamicHash.s: DynamicHash.cpp.s
+
+.PHONY : DynamicHash.s
+
+# target to generate assembly for a file
+DynamicHash.cpp.s:
+	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.s
+.PHONY : DynamicHash.cpp.s
+
+RandomAccess.o: RandomAccess.cpp.o
+
+.PHONY : RandomAccess.o
+
+# target to build an object file
+RandomAccess.cpp.o:
+	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.o
+.PHONY : RandomAccess.cpp.o
+
+RandomAccess.i: RandomAccess.cpp.i
+
+.PHONY : RandomAccess.i
+
+# target to preprocess a source file
+RandomAccess.cpp.i:
+	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.i
+.PHONY : RandomAccess.cpp.i
+
+RandomAccess.s: RandomAccess.cpp.s
+
+.PHONY : RandomAccess.s
+
+# target to generate assembly for a file
+RandomAccess.cpp.s:
+	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.s
+.PHONY : RandomAccess.cpp.s
+
+Record.o: Record.cpp.o
+
+.PHONY : Record.o
+
+# target to build an object file
+Record.cpp.o:
+	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/Record.cpp.o
+.PHONY : Record.cpp.o
+
+Record.i: Record.cpp.i
+
+.PHONY : Record.i
+
+# target to preprocess a source file
+Record.cpp.i:
+	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/Record.cpp.i
+.PHONY : Record.cpp.i
+
+Record.s: Record.cpp.s
+
+.PHONY : Record.s
+
+# target to generate assembly for a file
+Record.cpp.s:
+	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/Record.cpp.s
+.PHONY : Record.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... bd2_proyecto1"
 	@echo "... edit_cache"
+	@echo "... DynamicHash.o"
+	@echo "... DynamicHash.i"
+	@echo "... DynamicHash.s"
+	@echo "... RandomAccess.o"
+	@echo "... RandomAccess.i"
+	@echo "... RandomAccess.s"
+	@echo "... Record.o"
+	@echo "... Record.i"
+	@echo "... Record.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

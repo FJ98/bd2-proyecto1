@@ -7,4 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/felix/bd2-proyecto1/main.cpp
+bits/stdc++.h
+-
+utility
+-
 

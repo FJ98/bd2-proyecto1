@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 
-#include <utility>
-
 using namespace std;
 
 enum{ entero, flotante, doble, caracter };
@@ -14,7 +12,7 @@ private:
     char** tipoDeDatoDeCampo; // lista de los tipos de los campos
     std::string fileName; // nombre del archivo
 public:
-    Archivo() = default;
+    Archivo();
     void loadFromFile(std::string);
     void showData();
 
