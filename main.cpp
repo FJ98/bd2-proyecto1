@@ -1,30 +1,13 @@
 #include <bits/stdc++.h>
+#include "record.h"
+#include "archivo.h"
+#include <dirent.h>
+#include <sys/stat.h>  //for creating directories
+#include <fstream>
+#include "manager.h"
 
 using namespace std;
 
-enum{ entero, flotante, doble, caracter };
-
-class Archivo{
-private:
-    int start; // Para saber donde empieza la data
-    int numeroDeCampos; // # de campos
-    char** campo; // lista de campos
-    char** tipoDeDatoCampo; // lista de los tipos de los campos
-    char* fileName; // nombre del archivo
-public:
-    void loadFromFile(char* filename);
-    void showData();
-
-};
-
-void Archivo::loadFromFile(char* filename) {
-    this->fileName = filename;
-    this->numeroDeCampos = 0;
-
-}
-void Archivo::showData() {
-
-}
 
 
 class HashFile{
@@ -32,7 +15,24 @@ class HashFile{
 };
 
 
+
 int main() {
-    std::cout << "Hello World" << std::endl;
-    return 0;
+ 
+   // Manager s;
+    //s.inicializar();
+    string s = "12";
+
+    cout << stoi(s);
+    cout << sizeof(s);
+
+  //  Archivo* file = new Archivo;
+    //string file = "Persona";
+    //file->createTable("Persona");
+//    file->createTable("Animal");
+   // fstream ar;
+//    ar.open("Persona/hola.txt",ios::app);
+  //  ar.close();
+    //ar.close();
 }
+
+

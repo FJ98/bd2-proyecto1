@@ -4,4 +4,4 @@ project(bd2_proyecto1)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(bd2_proyecto1
-        main.cpp)
+        main.cpp record.h archivo.h manager.cpp manager.h HeaderFile.h DataFile.h)

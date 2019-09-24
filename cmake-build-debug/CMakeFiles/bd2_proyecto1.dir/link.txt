@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/bd2_proyecto1.dir/main.cpp.o  -o bd2_proyecto1 
+/usr/bin/c++  -g   CMakeFiles/bd2_proyecto1.dir/main.cpp.o CMakeFiles/bd2_proyecto1.dir/manager.cpp.o  -o bd2_proyecto1 

@@ -48,10 +48,10 @@ RM = /snap/clion/83/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/felix/bd2-proyecto1
+CMAKE_SOURCE_DIR = /home/daniel/Documents/BD2/Proyecto1/bd2-proyecto1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/felix/bd2-proyecto1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/daniel/Documents/BD2/Proyecto1/bd2-proyecto1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles /home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/BD2/Proyecto1/bd2-proyecto1/cmake-build-debug/CMakeFiles /home/daniel/Documents/BD2/Proyecto1/bd2-proyecto1/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documents/BD2/Proyecto1/bd2-proyecto1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+manager.o: manager.cpp.o
+
+.PHONY : manager.o
+
+# target to build an object file
+manager.cpp.o:
+	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/manager.cpp.o
+.PHONY : manager.cpp.o
+
+manager.i: manager.cpp.i
+
+.PHONY : manager.i
+
+# target to preprocess a source file
+manager.cpp.i:
+	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/manager.cpp.i
+.PHONY : manager.cpp.i
+
+manager.s: manager.cpp.s
+
+.PHONY : manager.s
+
+# target to generate assembly for a file
+manager.cpp.s:
+	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/manager.cpp.s
+.PHONY : manager.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... manager.o"
+	@echo "... manager.i"
+	@echo "... manager.s"
 .PHONY : help
 
 
