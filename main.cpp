@@ -17,17 +17,17 @@ class HashFile{
 
 int main() {
  
-   // Manager s;
-    //s.inicializar();
-    string s = "12";
+    Manager s;
+    s.inicializar();
+    //string s = "12";
 
-    cout << stoi(s);
-    cout << s.size();
+    //cout << stoi(s);
+    //cout << s.size();
 
-  //  Archivo* file = new Archivo;
+    Archivo file ;
     //string file = "Persona";
-    //file->createTable("Persona");
-//    file->createTable("Animal");
+    file.createTable("Persona");
+    file.createTable("Animal");
    // fstream ar;
 //    ar.open("Persona/hola.txt",ios::app);
   //  ar.close();

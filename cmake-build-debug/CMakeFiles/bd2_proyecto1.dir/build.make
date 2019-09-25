@@ -43,10 +43,10 @@ RM = /snap/clion/83/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/felix/bd2-proyecto1
+CMAKE_SOURCE_DIR = /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/felix/bd2-proyecto1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/bd2_proyecto1.dir/depend.make
@@ -59,81 +59,81 @@ include CMakeFiles/bd2_proyecto1.dir/flags.make
 
 CMakeFiles/bd2_proyecto1.dir/main.cpp.o: CMakeFiles/bd2_proyecto1.dir/flags.make
 CMakeFiles/bd2_proyecto1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bd2_proyecto1.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bd2_proyecto1.dir/main.cpp.o -c /home/felix/bd2-proyecto1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bd2_proyecto1.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bd2_proyecto1.dir/main.cpp.o -c /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/main.cpp
 
 CMakeFiles/bd2_proyecto1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bd2_proyecto1.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/felix/bd2-proyecto1/main.cpp > CMakeFiles/bd2_proyecto1.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/main.cpp > CMakeFiles/bd2_proyecto1.dir/main.cpp.i
 
 CMakeFiles/bd2_proyecto1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bd2_proyecto1.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/felix/bd2-proyecto1/main.cpp -o CMakeFiles/bd2_proyecto1.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/main.cpp -o CMakeFiles/bd2_proyecto1.dir/main.cpp.s
 
 CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.o: CMakeFiles/bd2_proyecto1.dir/flags.make
 CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.o: ../DynamicHash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.o -c /home/felix/bd2-proyecto1/DynamicHash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.o -c /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/DynamicHash.cpp
 
 CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/felix/bd2-proyecto1/DynamicHash.cpp > CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/DynamicHash.cpp > CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.i
 
 CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/felix/bd2-proyecto1/DynamicHash.cpp -o CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/DynamicHash.cpp -o CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.s
 
 CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.o: CMakeFiles/bd2_proyecto1.dir/flags.make
 CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.o: ../RandomAccess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.o -c /home/felix/bd2-proyecto1/RandomAccess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.o -c /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/RandomAccess.cpp
 
 CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/felix/bd2-proyecto1/RandomAccess.cpp > CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/RandomAccess.cpp > CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.i
 
 CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/felix/bd2-proyecto1/RandomAccess.cpp -o CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/RandomAccess.cpp -o CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.s
 
 CMakeFiles/bd2_proyecto1.dir/Record.cpp.o: CMakeFiles/bd2_proyecto1.dir/flags.make
 CMakeFiles/bd2_proyecto1.dir/Record.cpp.o: ../Record.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bd2_proyecto1.dir/Record.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bd2_proyecto1.dir/Record.cpp.o -c /home/felix/bd2-proyecto1/Record.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bd2_proyecto1.dir/Record.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bd2_proyecto1.dir/Record.cpp.o -c /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/Record.cpp
 
 CMakeFiles/bd2_proyecto1.dir/Record.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bd2_proyecto1.dir/Record.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/felix/bd2-proyecto1/Record.cpp > CMakeFiles/bd2_proyecto1.dir/Record.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/Record.cpp > CMakeFiles/bd2_proyecto1.dir/Record.cpp.i
 
 CMakeFiles/bd2_proyecto1.dir/Record.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bd2_proyecto1.dir/Record.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/felix/bd2-proyecto1/Record.cpp -o CMakeFiles/bd2_proyecto1.dir/Record.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/Record.cpp -o CMakeFiles/bd2_proyecto1.dir/Record.cpp.s
 
 CMakeFiles/bd2_proyecto1.dir/manager.cpp.o: CMakeFiles/bd2_proyecto1.dir/flags.make
 CMakeFiles/bd2_proyecto1.dir/manager.cpp.o: ../manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bd2_proyecto1.dir/manager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bd2_proyecto1.dir/manager.cpp.o -c /home/felix/bd2-proyecto1/manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bd2_proyecto1.dir/manager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bd2_proyecto1.dir/manager.cpp.o -c /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/manager.cpp
 
 CMakeFiles/bd2_proyecto1.dir/manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bd2_proyecto1.dir/manager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/felix/bd2-proyecto1/manager.cpp > CMakeFiles/bd2_proyecto1.dir/manager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/manager.cpp > CMakeFiles/bd2_proyecto1.dir/manager.cpp.i
 
 CMakeFiles/bd2_proyecto1.dir/manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bd2_proyecto1.dir/manager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/felix/bd2-proyecto1/manager.cpp -o CMakeFiles/bd2_proyecto1.dir/manager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/manager.cpp -o CMakeFiles/bd2_proyecto1.dir/manager.cpp.s
 
 CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o: CMakeFiles/bd2_proyecto1.dir/flags.make
 CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o: ../archivo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o -c /home/felix/bd2-proyecto1/archivo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o -c /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/archivo.cpp
 
 CMakeFiles/bd2_proyecto1.dir/archivo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bd2_proyecto1.dir/archivo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/felix/bd2-proyecto1/archivo.cpp > CMakeFiles/bd2_proyecto1.dir/archivo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/archivo.cpp > CMakeFiles/bd2_proyecto1.dir/archivo.cpp.i
 
 CMakeFiles/bd2_proyecto1.dir/archivo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bd2_proyecto1.dir/archivo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/felix/bd2-proyecto1/archivo.cpp -o CMakeFiles/bd2_proyecto1.dir/archivo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/archivo.cpp -o CMakeFiles/bd2_proyecto1.dir/archivo.cpp.s
 
 # Object files for target bd2_proyecto1
 bd2_proyecto1_OBJECTS = \
@@ -155,7 +155,7 @@ bd2_proyecto1: CMakeFiles/bd2_proyecto1.dir/manager.cpp.o
 bd2_proyecto1: CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o
 bd2_proyecto1: CMakeFiles/bd2_proyecto1.dir/build.make
 bd2_proyecto1: CMakeFiles/bd2_proyecto1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable bd2_proyecto1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable bd2_proyecto1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bd2_proyecto1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -168,6 +168,6 @@ CMakeFiles/bd2_proyecto1.dir/clean:
 .PHONY : CMakeFiles/bd2_proyecto1.dir/clean
 
 CMakeFiles/bd2_proyecto1.dir/depend:
-	cd /home/felix/bd2-proyecto1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/felix/bd2-proyecto1 /home/felix/bd2-proyecto1 /home/felix/bd2-proyecto1/cmake-build-debug /home/felix/bd2-proyecto1/cmake-build-debug /home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles/bd2_proyecto1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1 /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1 /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/CMakeFiles/bd2_proyecto1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bd2_proyecto1.dir/depend
 

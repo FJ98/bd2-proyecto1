@@ -36,34 +36,25 @@ public:
 
     void createTable(string filename);
 
+    void load(string filename); // carga el archivo con nombre filename
 
-    void load(string filename){ // carga el archivo con nombre filename
-   
-    }
+    void ImprimirDatos(int i);//imprimer los i primeros datos
 
-    void ImprimirDatos(int i){ //imprimer los i primeros datos
-   
-    }
+    void ImprimirDato(int key); // si la key es un entero
 
-    void ImprimirDato(int key){ // si la key es un entero
-    };
+    void ImprimirDato(string key); // si la key en un string
 
-    void ImprimirDato(string key){ // si la key en un string
-    }
+    void createStaticHashIndex(string atributo); //crea un indice relacionado al atributo
 
-    void createHashIndex(char* atributo){ //crea un indice relacionado al atributo
-    }
+    void createDinamicHashIndex(string atributo);
 
-    void showData(){
+    void showData();
 
-    };
-    void writeReocrd(Record obj){
+    void writeReocrd(Record obj);
 
-    };
+    bool exists(string filename); // retorna true si existe la tabla Filename
 
-    bool exists(string filename){ // retorna true si existe la tabla Filename
 
-    }
 };
 
 

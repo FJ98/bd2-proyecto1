@@ -6,7 +6,7 @@
 #include <string>
 using namespace std;
 
-char* s_to_char(const string& palabra)
+static char* s_to_char(const string& palabra)
 {
     char* cstr = new char;
     strcpy(cstr,palabra.c_str());

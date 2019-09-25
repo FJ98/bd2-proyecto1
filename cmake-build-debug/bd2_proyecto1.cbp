@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/felix/bd2-proyecto1/cmake-build-debug"/>
+				<Option working_dir="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/felix/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/felix/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/felix/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/felix/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/felix/bd2-proyecto1/cmake-build-debug"/>
+				<Option working_dir="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/felix/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/felix/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/felix/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/felix/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bd2_proyecto1">
-				<Option output="/home/felix/bd2-proyecto1/cmake-build-debug/bd2_proyecto1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/felix/bd2-proyecto1/cmake-build-debug"/>
+				<Option output="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/bd2_proyecto1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/felix/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 bd2_proyecto1"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/felix/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/felix/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/felix/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 bd2_proyecto1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bd2_proyecto1/fast">
-				<Option output="/home/felix/bd2-proyecto1/cmake-build-debug/bd2_proyecto1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/felix/bd2-proyecto1/cmake-build-debug"/>
+				<Option output="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/bd2_proyecto1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,66 +67,66 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/felix/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 bd2_proyecto1/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/felix/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/felix/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/felix/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 bd2_proyecto1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/felix/bd2-proyecto1/cmake-build-debug"/>
+				<Option working_dir="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/felix/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/felix/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/felix/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/felix/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/felix/bd2-proyecto1/DataFile.h">
+		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/DataFile.h">
 			<Option target="bd2_proyecto1"/>
 		</Unit>
-		<Unit filename="/home/felix/bd2-proyecto1/DynamicHash.cpp">
+		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/DynamicHash.cpp">
 			<Option target="bd2_proyecto1"/>
 		</Unit>
-		<Unit filename="/home/felix/bd2-proyecto1/DynamicHash.h">
+		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/DynamicHash.h">
 			<Option target="bd2_proyecto1"/>
 		</Unit>
-		<Unit filename="/home/felix/bd2-proyecto1/HeaderFile.h">
+		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/HeaderFile.h">
 			<Option target="bd2_proyecto1"/>
 		</Unit>
-		<Unit filename="/home/felix/bd2-proyecto1/RandomAccess.cpp">
+		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/RandomAccess.cpp">
 			<Option target="bd2_proyecto1"/>
 		</Unit>
-		<Unit filename="/home/felix/bd2-proyecto1/RandomAccess.h">
+		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/RandomAccess.h">
 			<Option target="bd2_proyecto1"/>
 		</Unit>
-		<Unit filename="/home/felix/bd2-proyecto1/Record.cpp">
+		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/Record.cpp">
 			<Option target="bd2_proyecto1"/>
 		</Unit>
-		<Unit filename="/home/felix/bd2-proyecto1/Record.h">
+		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/Record.h">
 			<Option target="bd2_proyecto1"/>
 		</Unit>
-		<Unit filename="/home/felix/bd2-proyecto1/archivo.cpp">
+		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/archivo.cpp">
 			<Option target="bd2_proyecto1"/>
 		</Unit>
-		<Unit filename="/home/felix/bd2-proyecto1/archivo.h">
+		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/archivo.h">
 			<Option target="bd2_proyecto1"/>
 		</Unit>
-		<Unit filename="/home/felix/bd2-proyecto1/funciones.h">
+		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/funciones.h">
 			<Option target="bd2_proyecto1"/>
 		</Unit>
-		<Unit filename="/home/felix/bd2-proyecto1/main.cpp">
+		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/main.cpp">
 			<Option target="bd2_proyecto1"/>
 		</Unit>
-		<Unit filename="/home/felix/bd2-proyecto1/manager.cpp">
+		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/manager.cpp">
 			<Option target="bd2_proyecto1"/>
 		</Unit>
-		<Unit filename="/home/felix/bd2-proyecto1/manager.h">
+		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/manager.h">
 			<Option target="bd2_proyecto1"/>
 		</Unit>
-		<Unit filename="/home/felix/bd2-proyecto1/CMakeLists.txt">
+		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

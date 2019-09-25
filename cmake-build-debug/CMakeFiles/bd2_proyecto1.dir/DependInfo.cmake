@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/felix/bd2-proyecto1/DynamicHash.cpp" "/home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.o"
-  "/home/felix/bd2-proyecto1/RandomAccess.cpp" "/home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.o"
-  "/home/felix/bd2-proyecto1/Record.cpp" "/home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles/bd2_proyecto1.dir/Record.cpp.o"
-  "/home/felix/bd2-proyecto1/archivo.cpp" "/home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o"
-  "/home/felix/bd2-proyecto1/main.cpp" "/home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles/bd2_proyecto1.dir/main.cpp.o"
-  "/home/felix/bd2-proyecto1/manager.cpp" "/home/felix/bd2-proyecto1/cmake-build-debug/CMakeFiles/bd2_proyecto1.dir/manager.cpp.o"
+  "/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/DynamicHash.cpp" "/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.o"
+  "/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/RandomAccess.cpp" "/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.o"
+  "/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/Record.cpp" "/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/CMakeFiles/bd2_proyecto1.dir/Record.cpp.o"
+  "/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/archivo.cpp" "/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o"
+  "/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/main.cpp" "/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/CMakeFiles/bd2_proyecto1.dir/main.cpp.o"
+  "/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/manager.cpp" "/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/CMakeFiles/bd2_proyecto1.dir/manager.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

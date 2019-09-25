@@ -1,13 +1,14 @@
 // Created by felix on 9/24/19.
 #include "archivo.h"
-
-char* s_to_char(const string& palabra)
+#include "funciones.h"
+/*
+static char* s_to_char(const string& palabra)
 {
     char* cstr = new char;
     strcpy(cstr,palabra.c_str());
     return cstr;
 }
-
+*/
 void Archivo::createTable(string filename){
 
     filePath = PATH + filename;
@@ -27,5 +28,49 @@ void Archivo::createTable(string filename){
     header.setPath(headerPath);
     cout << headerPath<<endl;
     header.inicialize();
+
+}
+
+void Archivo::insert() {
+
+}
+
+void Archivo::load(string filename) {
+
+}
+
+void Archivo::ImprimirDatos(int i) {
+
+}
+
+void Archivo::ImprimirDato(int key) {
+
+}
+
+void Archivo::ImprimirDato(string key) {
+
+}
+
+void Archivo::createHashIndex(char *atributo) {
+
+}
+
+void Archivo::showData() {
+
+}
+
+void Archivo::writeReocrd(Record obj) {
+
+}
+
+bool Archivo::exists(string filename) {
+    return false;
+}
+
+void Archivo::createStaticHashIndex(string atributo) {
+
+}
+
+void Archivo::createDinamicHashIndex(string atributo) {
 
 }

@@ -15,6 +15,7 @@ CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o: ../DataFile.h
 CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o: ../HeaderFile.h
 CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o: ../archivo.cpp
 CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o: ../archivo.h
+CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o: ../funciones.h
 CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o: ../record.h
 
 CMakeFiles/bd2_proyecto1.dir/main.cpp.o: ../DataFile.h
@@ -27,6 +28,7 @@ CMakeFiles/bd2_proyecto1.dir/main.cpp.o: ../record.h
 CMakeFiles/bd2_proyecto1.dir/manager.cpp.o: ../DataFile.h
 CMakeFiles/bd2_proyecto1.dir/manager.cpp.o: ../HeaderFile.h
 CMakeFiles/bd2_proyecto1.dir/manager.cpp.o: ../archivo.h
+CMakeFiles/bd2_proyecto1.dir/manager.cpp.o: ../funciones.h
 CMakeFiles/bd2_proyecto1.dir/manager.cpp.o: ../manager.cpp
 CMakeFiles/bd2_proyecto1.dir/manager.cpp.o: ../manager.h
 CMakeFiles/bd2_proyecto1.dir/manager.cpp.o: ../record.h
