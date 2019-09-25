@@ -44,6 +44,24 @@ cstring
 string
 -
 
+/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/main.cpp
+bits/stdc++.h
+-
+record.h
+/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/record.h
+archivo.h
+/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/archivo.h
+dirent.h
+-
+sys/stat.h
+-
+fstream
+-
+manager.h
+/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/manager.h
+HeaderFile.h
+/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/HeaderFile.h
+
 /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/manager.cpp
 manager.h
 /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/manager.h

@@ -8,7 +8,7 @@
 #include "HeaderFile.h"
 #include "DataFile.h"
 #include "archivo.h"
-
+#include "funciones.h"
 #define PATH "bd/"
 
 using namespace std;
@@ -36,7 +36,27 @@ public:
     void insert();
     // carga filename, path de datos y header en memoria RAM.
 
-    void createTable(string filename);
+    void createTable(string filename){
+
+        filePath = PATH + filename;
+        mkdir(s_to_char(filePath),0777);
+        cout << "directorio "<<filePath << " creado"<<endl;
+        dataPath =filePath + "/" +filename + ".dat";
+
+        headerPath = filePath + "/"+filename + ".header";
+        //PATH DE LA DATA Y EL HEADER DEL ARCHIVO
+        DataFile  data ;
+
+        cout << dataPath<<endl;
+        data.setPath(dataPath);
+        data.inicialize();
+
+        HeaderFile header;
+        header.setPath(headerPath);
+        cout << headerPath<<endl;
+        header.inicialize();
+
+    }
 
     void load(string filename); // carga el archivo con nombre filename
 

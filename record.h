@@ -35,11 +35,11 @@ public:
         size = suma;
     };
 
+    void getInputFromUser() {
 
-    void Imprimir(){
+    }
 
-
-    };
+    void Imprimir();
 
     int getSize(){
         return size;

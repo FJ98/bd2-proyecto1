@@ -5,29 +5,24 @@
 #include <sys/stat.h>  //for creating directories
 #include <fstream>
 #include "manager.h"
-
+#include "HeaderFile.h"
 using namespace std;
-
-
-class HashFile{
-
-};
-
-
 
 int main() {
  
     Manager s;
     s.inicializar();
-    //string s = "12";
-
+    //sinicializar();
     //cout << stoi(s);
     //cout << s.size();
-
     Archivo file ;
     //string file = "Persona";
-    file.createTable("Persona");
+//    file.createTable("Persona");
     file.createTable("Animal");
+    HeaderFile header;
+    header.load("bd/Animal/Animal.header");
+    header.print();
+
    // fstream ar;
 //    ar.open("Persona/hola.txt",ios::app);
   //  ar.close();

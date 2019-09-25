@@ -9,7 +9,3 @@ char* ss_to_char(const string& palabra)
     return cstr;
 }
 */
-void Manager::inicializar(){
-    this -> bd = "bd";
-    mkdir(s_to_char(PATH),0777);
-}

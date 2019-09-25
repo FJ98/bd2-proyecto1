@@ -8,15 +8,17 @@
 #include "record.h"
 #include <sys/stat.h>
 #include "archivo.h"
-
+#include "funciones.h"
 using namespace std;
 
 class Manager {
 private:
 	string bd;
 public:
-	Manager()= default;
-    void inicializar();
+    void inicializar(){
+        this -> bd = "bd";
+        mkdir(s_to_char(PATH),0777);
+    };
 };
 
 

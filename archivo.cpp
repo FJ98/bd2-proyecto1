@@ -9,27 +9,7 @@ static char* s_to_char(const string& palabra)
     return cstr;
 }
 */
-void Archivo::createTable(string filename){
 
-    filePath = PATH + filename;
-    mkdir(s_to_char(filePath),0777);
-    cout << "directorio "<<filePath << " creado"<<endl;
-    dataPath =filePath + "/" +filename + ".dat";
-
-    headerPath = filePath + "/"+filename + ".header";
-    //PATH DE LA DATA Y EL HEADER DEL ARCHIVO
-    DataFile  data ;
-
-    cout << dataPath<<endl;
-    data.setPath(dataPath);
-    data.inicialize();
-
-    HeaderFile header;
-    header.setPath(headerPath);
-    cout << headerPath<<endl;
-    header.inicialize();
-
-}
 
 void Archivo::insert() {
 
@@ -51,9 +31,6 @@ void Archivo::ImprimirDato(string key) {
 
 }
 
-void Archivo::createHashIndex(char *atributo) {
-
-}
 
 void Archivo::showData() {
 
