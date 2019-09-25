@@ -12,12 +12,13 @@
 #define PATH "bd/"
 
 using namespace std;
-
+/*
 struct Atributo{
     char* name;
     char* tipo;
     int pos;
 };
+*/
 
 enum{ entero, flotante, doble, caracter };
 
@@ -26,6 +27,7 @@ private:
     string filePath; // nombre del archivo
     string headerPath;
     string dataPath;
+    Record* record;
 
     string* atributos;
     int n; //number of attributes

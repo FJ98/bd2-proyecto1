@@ -35,6 +35,7 @@ public:
         size = suma;
     };
 
+
     void Imprimir(){
 
 
