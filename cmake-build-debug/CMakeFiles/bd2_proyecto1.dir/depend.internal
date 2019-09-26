@@ -4,19 +4,23 @@
 CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.o
  /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/DynamicHash.cpp
  /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/DynamicHash.h
-CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o
- /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/archivo.cpp
 CMakeFiles/bd2_proyecto1.dir/main.cpp.o
+ /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/Bucket.h
  /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/DataFile.h
+ /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/HashIndex.h
  /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/HeaderFile.h
+ /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/StaticHash.h
  /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/archivo.h
  /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/funciones.h
  /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/main.cpp
  /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/manager.h
  /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/record.h
 CMakeFiles/bd2_proyecto1.dir/manager.cpp.o
+ /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/Bucket.h
  /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/DataFile.h
+ /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/HashIndex.h
  /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/HeaderFile.h
+ /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/StaticHash.h
  /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/archivo.h
  /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/funciones.h
  /home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/manager.cpp

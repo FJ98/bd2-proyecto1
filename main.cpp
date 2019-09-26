@@ -18,13 +18,19 @@ int main() {
     Archivo file ;
     //string file = "Persona";
 //    file.createTable("Persona");
-   // file.createTable("Animal");
+    file.createTable("Animal");
    // HeaderFile header;
     //header.load("bd/Animal/Animal.header");
     //header.print();
     file.load("Animal");
-    file.insert();
-    file.search(1)->Imprimir();
+
+
+ //   file.createStaticHashIndex("Nombre");
+ //   file.insert();
+   // file.insert();
+
+    //file.searchByKey("Daniel","Nombre")->Imprimir();
+
    // fstream ar;
 //    ar.open("Persona/hola.txt",ios::app);
   //  ar.close();

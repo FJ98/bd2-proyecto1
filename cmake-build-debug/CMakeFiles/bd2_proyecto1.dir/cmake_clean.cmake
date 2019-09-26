@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/bd2_proyecto1.dir/main.cpp.o"
   "CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.o"
   "CMakeFiles/bd2_proyecto1.dir/manager.cpp.o"
-  "CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o"
   "bd2_proyecto1.pdb"
   "bd2_proyecto1"
 )

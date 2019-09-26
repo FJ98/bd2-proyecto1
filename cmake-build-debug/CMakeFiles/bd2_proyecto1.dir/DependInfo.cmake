@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/DynamicHash.cpp" "/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.o"
-  "/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/archivo.cpp" "/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o"
   "/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/main.cpp" "/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/CMakeFiles/bd2_proyecto1.dir/main.cpp.o"
   "/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/manager.cpp" "/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/cmake-build-debug/CMakeFiles/bd2_proyecto1.dir/manager.cpp.o"
   )

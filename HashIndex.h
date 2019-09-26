@@ -7,43 +7,60 @@
 
 #include <bits/stdc++.h>
 #include "funciones.h"
-#include "Bucket .h"
+#include "Bucket.h"
 
 using namespace std;
 
 
 class HashIndex{
+public:
     string path;
+    int localDepth;
     string nextBucketPath;
 
     void save(){
     }
 
-    void load(string path){
-        this->path = path;
-        this->nextBucketPath = path + "a";
+    void load(const string& _path){
+        this->path = _path;
+        this->nextBucketPath = _path + "a";
         //
     }
-    void inicialize(string path){
+    void inicialize(const string& _path, int _localDepth){
+
+        this->localDepth = _localDepth;
         fstream file;
-        this -> path = path;
-        file.open(path,ios::app|ios::out);
+        this -> path = _path;
+        file.open(_path, ios::app | ios::out);
         nextBucketPath = NONE;
-        file << path <<endl;
+        file << _path << endl;
         file << nextBucketPath;
         file.close();
     }
-    void insert(int key){
+    bool insert(string key, int adress){
         if (nextBucketPath == NONE){
             nextBucketPath = path + "a";
-
+            Bucket bucket;
+            bucket.inicialize(nextBucketPath,localDepth);
+            bucket.insert(key, adress);
         } else{
             Bucket bucket;
-            bucket.inicialize(nextBucketPath);
-            bucket.insert(key);
+            bucket.load(nextBucketPath);
+            bucket.insert(key, adress);
         }
-
     }
+
+    int search(string key){
+        if(nextBucketPath ==NONE)
+            return -1;
+        else{
+            Bucket bucket;
+            bucket.load(nextBucketPath);
+            bucket.search(key);
+        }
+    }
+
+
 
 };
 

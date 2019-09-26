@@ -150,33 +150,6 @@ DynamicHash.cpp.s:
 	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.s
 .PHONY : DynamicHash.cpp.s
 
-archivo.o: archivo.cpp.o
-
-.PHONY : archivo.o
-
-# target to build an object file
-archivo.cpp.o:
-	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o
-.PHONY : archivo.cpp.o
-
-archivo.i: archivo.cpp.i
-
-.PHONY : archivo.i
-
-# target to preprocess a source file
-archivo.cpp.i:
-	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/archivo.cpp.i
-.PHONY : archivo.cpp.i
-
-archivo.s: archivo.cpp.s
-
-.PHONY : archivo.s
-
-# target to generate assembly for a file
-archivo.cpp.s:
-	$(MAKE) -f CMakeFiles/bd2_proyecto1.dir/build.make CMakeFiles/bd2_proyecto1.dir/archivo.cpp.s
-.PHONY : archivo.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -243,9 +216,6 @@ help:
 	@echo "... DynamicHash.o"
 	@echo "... DynamicHash.i"
 	@echo "... DynamicHash.s"
-	@echo "... archivo.o"
-	@echo "... archivo.i"
-	@echo "... archivo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

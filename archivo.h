@@ -9,6 +9,9 @@
 #include "DataFile.h"
 #include "archivo.h"
 #include "funciones.h"
+#include "StaticHash.h"
+
+#define STATIC "static"
 #define PATH "bd/"
 
 using namespace std;
@@ -27,16 +30,19 @@ private:
     string filePath; // nombre del archivo
     string headerPath;
     string dataPath;
+    string name;
     //Record* record;
     string* tipo_de_campo;
     string* attr;
+    string indexInfoPath;
     int n; //number of attributes
-
+    int size;
 public:
     // carga filename, path de datos y header en memoria RAM.
 
     void createTable(string filename){
 
+        name = filename;
         filePath = PATH + filename;
         mkdir(s_to_char(filePath),0777);
         cout << "directorio "<<filePath << " creado"<<endl;
@@ -53,6 +59,7 @@ public:
         header.setPath(headerPath);
         cout << headerPath<<endl;
         header.inicialize();
+        header.getInputFromUser();
 
     }
 
@@ -69,6 +76,51 @@ public:
         data.record->getInputFromUser();
         cout << "aaaaaa"<< endl;
         data.record->Imprimir();
+
+
+
+
+
+        HeaderFile header;
+        header.load(headerPath);
+        int tamano = header.size;
+        tamano ++;
+        header.size = tamano;
+
+
+        //hallar la posicion en la que se va a insertar
+
+
+        fstream file;
+        file.open(indexInfoPath,ios::in);
+        string linea;
+        if(file.is_open()){
+
+            getline(file,linea);
+            getline(file,linea);
+        }
+
+
+        StaticHash staticHash;
+        string indexPath = filePath + "/staticIndex" + linea;
+        staticHash.load(indexPath);
+
+        file.close();
+        int key;
+        for (int i = 0;i < data.record->cantidadDeCampos;i++){
+            if(data.record->attr[i] == linea){
+                key = stoi(data.record->values[i]);
+                break;
+            }
+
+        }
+
+
+        staticHash.insert(key,tamano);
+        //hallar el key
+
+
+
         return data.insert(data.record);
     }
 
@@ -80,17 +132,47 @@ public:
         HeaderFile header;
         header.load(headerPath);
         attr = header.attr;
+        size = header.size;
         n = header.n;
         tipo_de_campo = header.tipo_de_campo;
+
     }; // carga el archivo con nombre filename
 
     void ImprimirDatos(int i);//imprimer los i primeros datos
 
-    void searchByKey(int key); // si la key es un entero
+    Record* searchByKey(int key,string atributo){
+        StaticHash statHash;
+        string indexPath = filePath + "/staticIndex" + atributo;
+        statHash.load(indexPath);
+        int pos = statHash.search(key);
+        return search(pos);
+    }; // si la key es un entero
 
-    void searchByKey(string key); // si la key en un string
+    Record* searchByKey(string key, string atributo){
+        StaticHash statHash;
+        string indexPath = filePath + "/staticIndex" + atributo;
+        statHash.load(indexPath);
+        int pos = statHash.search(key);
+        return search(pos);
+    }; // si la key en un string
 
-    void createStaticHashIndex(string atributo); //crea un indice relacionado al atributo
+    void createStaticHashIndex(string atributo){
+        StaticHash statHash;
+        string indexPath = filePath + "/staticIndex" + atributo;
+        statHash.inicialize(indexPath);
+        fstream file;
+        indexInfoPath =filePath + "/" +name + ".heider";
+
+        file.open(indexInfoPath,ios::app);
+
+        if(file.is_open()){
+            file << "static"<<endl;
+            file << atributo;
+        }
+
+        file.close();
+
+    }; //crea un indice relacionado al atributo
 
     void createDinamicHashIndex(string atributo);
 

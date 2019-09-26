@@ -13,6 +13,7 @@ class HeaderFile{
 public:
     string path;
     int n; //numero de atributos
+    int size;
     string* attr;
     string* tipo_de_campo;
 
@@ -25,6 +26,8 @@ public:
         if (archivo.is_open()) {
             getline(archivo,linea);
             n = stoi(linea);
+            getline(archivo,linea);
+            size = stoi(linea);
             attr = new string[n];
             tipo_de_campo = new string[n];
 
@@ -48,6 +51,7 @@ public:
         archivo.open(path,ios::out);
         if (archivo.is_open()) {
             archivo << n << endl;
+            archivo << size << endl;
             for (int i = 0 ;i < n;i++){
                 archivo << attr[i]<<endl;
                 archivo << tipo_de_campo[i]<<endl;
@@ -78,6 +82,7 @@ public:
         int s;
         cin >> s;
         this->n = s;
+        size = 0;
         cout << endl;
         //Ingreso de los atributos
         //ingreso de los tipos

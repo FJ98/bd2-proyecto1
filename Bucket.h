@@ -13,7 +13,7 @@ class Bucket{
 public:
     int localDepth;
     int currentDepth;
-    int* keys;
+    string* keys;
     int* keyAdress;
     string nextBucketPath;
     string path;
@@ -22,7 +22,8 @@ public:
         fstream file;
         file.open(path,ios::in);
         if(file.is_open()){
-            keys = new int[localDepth];
+            keys = new string[localDepth];
+            keyAdress = new int[localDepth];
             this->path = path;
             string s;
             getline(file,s);
@@ -57,10 +58,12 @@ public:
 
     }
 
-    void insert(int key){
+
+    void insert(string key,int adress){
         if(!find(key)){
             if(currentDepth < localDepth){
                 keys[currentDepth] = key;
+                keyAdress[currentDepth] = adress;
                 currentDepth++;
                 save();
             } else{
@@ -68,17 +71,30 @@ public:
                 Bucket newBucket;
                 if(nextBucketPath ==NONE){
                     newBucket.inicialize(nextBucketPath,localDepth);
-                    newBucket.insert(key);
+                    newBucket.insert(key,adress);
                 } else{
                     newBucket.load(nextBucketPath);
-                    newBucket.insert(key);
+                    newBucket.insert(key,adress);
                 }
             }
-
         }
     }
 
-    bool find(int key){
+    int search(string key){
+
+        for(int i=0;i<currentDepth;i++){
+            if (keys[i]==key)
+                return keyAdress[i];
+        }
+        if(nextBucketPath==NONE)
+            return -1;
+        Bucket bucket;
+        bucket.load(nextBucketPath);
+        return bucket.search(key);
+
+    }
+
+    bool find(string key){
         if (currentDepth == 0)
             return false;
         else{
@@ -90,6 +106,8 @@ public:
         return false;
         //retorna si la key está en el backet
     }
+
+
 
     void inicialize(string path,int localDepth){
         //cread el bucket

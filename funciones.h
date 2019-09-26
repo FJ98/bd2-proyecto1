@@ -21,10 +21,28 @@ static char* s_to_char_with_size(const string& palabra, int n){
     for (int i=0;i<n;i++){
         cstr[i] = ' ';
     }
-
     strcpy(cstr,palabra.c_str());
     return cstr;
+}
 
+
+static int hashFunction(const string& key,int n){
+    int s;
+    s = key.size();
+
+    char * keyChar =s_to_char_with_size(key,s);
+
+    int result = 0;
+
+    for (int i = 0;i<s;i++){
+        result += keyChar[i];
+    }
+
+    return result%n;
+}
+
+static int hashFunction(int key,int n){
+    return key%n;
 }
 
 #endif //BD2_PROYECTO1_FUNCIONES_H
