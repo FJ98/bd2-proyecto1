@@ -18,15 +18,32 @@ int main() {
     Archivo file ;
     //string file = "Persona";
 //    file.createTable("Persona");
-    file.createTable("Animal");
-    HeaderFile header;
-    header.load("bd/Animal/Animal.header");
-    header.print();
-
+   // file.createTable("Animal");
+   // HeaderFile header;
+    //header.load("bd/Animal/Animal.header");
+    //header.print();
+    file.load("Animal");
+    file.insert();
+    file.search(1)->Imprimir();
    // fstream ar;
 //    ar.open("Persona/hola.txt",ios::app);
   //  ar.close();
     //ar.close();
+ /*   char d[12];
+    cin >>d;
+    fstream archivo;
+    archivo.open("prueba",ios::binary|ios::out);
+    archivo.write((char*)&d, sizeof(char)*12);
+    archivo.close();
+
+    cout << d << endl;
+    archivo.open("prueba",ios::binary|ios::in);
+    archivo.read((char*)&d, sizeof(char)*12);
+    archivo.close();
+    cout <<"luego de leer \n";
+    cout << d<<endl;
+
+*/
 }
 
 

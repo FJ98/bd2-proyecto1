@@ -15,8 +15,10 @@ public:
     int n; //numero de atributos
     string* attr;
     string* tipo_de_campo;
+
     void load(string filePath){
         //carga de los datos de Archivo.header
+
         string linea;
         fstream archivo;
         archivo.open(filePath,ios::in);
@@ -60,6 +62,7 @@ public:
     void setPath(string path){
         this->path = path;
     };
+
 
     void inicialize(){
         fstream archivo ;

@@ -4,23 +4,12 @@
 CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.o: ../DynamicHash.cpp
 CMakeFiles/bd2_proyecto1.dir/DynamicHash.cpp.o: ../DynamicHash.h
 
-CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.o: ../RandomAccess.cpp
-CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.o: ../RandomAccess.h
-CMakeFiles/bd2_proyecto1.dir/RandomAccess.cpp.o: ../Record.h
-
-CMakeFiles/bd2_proyecto1.dir/Record.cpp.o: ../Record.cpp
-CMakeFiles/bd2_proyecto1.dir/Record.cpp.o: ../Record.h
-
-CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o: ../DataFile.h
-CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o: ../HeaderFile.h
 CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o: ../archivo.cpp
-CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o: ../archivo.h
-CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o: ../funciones.h
-CMakeFiles/bd2_proyecto1.dir/archivo.cpp.o: ../record.h
 
 CMakeFiles/bd2_proyecto1.dir/main.cpp.o: ../DataFile.h
 CMakeFiles/bd2_proyecto1.dir/main.cpp.o: ../HeaderFile.h
 CMakeFiles/bd2_proyecto1.dir/main.cpp.o: ../archivo.h
+CMakeFiles/bd2_proyecto1.dir/main.cpp.o: ../funciones.h
 CMakeFiles/bd2_proyecto1.dir/main.cpp.o: ../main.cpp
 CMakeFiles/bd2_proyecto1.dir/main.cpp.o: ../manager.h
 CMakeFiles/bd2_proyecto1.dir/main.cpp.o: ../record.h

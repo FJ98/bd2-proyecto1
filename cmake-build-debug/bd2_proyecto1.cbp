@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/Bucket .h">
+			<Option target="bd2_proyecto1"/>
+		</Unit>
 		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/DataFile.h">
 			<Option target="bd2_proyecto1"/>
 		</Unit>
@@ -93,19 +96,13 @@
 		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/DynamicHash.h">
 			<Option target="bd2_proyecto1"/>
 		</Unit>
+		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/HashIndex.h">
+			<Option target="bd2_proyecto1"/>
+		</Unit>
 		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/HeaderFile.h">
 			<Option target="bd2_proyecto1"/>
 		</Unit>
-		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/RandomAccess.cpp">
-			<Option target="bd2_proyecto1"/>
-		</Unit>
-		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/RandomAccess.h">
-			<Option target="bd2_proyecto1"/>
-		</Unit>
-		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/Record.cpp">
-			<Option target="bd2_proyecto1"/>
-		</Unit>
-		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/Record.h">
+		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/StaticHash.h">
 			<Option target="bd2_proyecto1"/>
 		</Unit>
 		<Unit filename="/home/daniel/Documents/BD2/Proyecto1.0/bd2-proyecto1/archivo.cpp">

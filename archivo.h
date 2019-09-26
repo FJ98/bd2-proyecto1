@@ -27,13 +27,12 @@ private:
     string filePath; // nombre del archivo
     string headerPath;
     string dataPath;
-    Record* record;
-
-    string* atributos;
+    //Record* record;
+    string* tipo_de_campo;
+    string* attr;
     int n; //number of attributes
 
 public:
-    void insert();
     // carga filename, path de datos y header en memoria RAM.
 
     void createTable(string filename){
@@ -46,7 +45,6 @@ public:
         headerPath = filePath + "/"+filename + ".header";
         //PATH DE LA DATA Y EL HEADER DEL ARCHIVO
         DataFile  data ;
-
         cout << dataPath<<endl;
         data.setPath(dataPath);
         data.inicialize();
@@ -58,21 +56,45 @@ public:
 
     }
 
-    void load(string filename); // carga el archivo con nombre filename
+
+    Record* search(int pos){
+        DataFile data;
+        data.setFileFormat(dataPath,tipo_de_campo,attr,n);
+        return data.search(pos);
+    }
+
+    bool insert(){
+        DataFile data;
+        data.setFileFormat(dataPath,tipo_de_campo,attr,n );
+        data.record->getInputFromUser();
+        cout << "aaaaaa"<< endl;
+        data.record->Imprimir();
+        return data.insert(data.record);
+    }
+
+    void load(string filename){
+        filePath = PATH + filename;
+        dataPath =filePath + "/" +filename + ".dat";
+        headerPath = filePath + "/"+filename + ".header";
+
+        HeaderFile header;
+        header.load(headerPath);
+        attr = header.attr;
+        n = header.n;
+        tipo_de_campo = header.tipo_de_campo;
+    }; // carga el archivo con nombre filename
 
     void ImprimirDatos(int i);//imprimer los i primeros datos
 
-    void ImprimirDato(int key); // si la key es un entero
+    void searchByKey(int key); // si la key es un entero
 
-    void ImprimirDato(string key); // si la key en un string
+    void searchByKey(string key); // si la key en un string
 
     void createStaticHashIndex(string atributo); //crea un indice relacionado al atributo
 
     void createDinamicHashIndex(string atributo);
 
     void showData();
-
-    void writeReocrd(Record obj);
 
     bool exists(string filename); // retorna true si existe la tabla Filename
 
@@ -113,9 +135,9 @@ public:
         fileName = _filename;
         fstream obj;
         obj.open(this->fileName,ios::binary | ios::in);
-        int n;
+        int cantidadDeCampos;
         if(obj.is_open()){
-            obj.read((char*)& numeroDeCampos, sizeof(n));
+            obj.read((char*)& numeroDeCampos, sizeof(cantidadDeCampos));
             int r;
 
             for (int i=0;i<numeroDeCampos;i++){

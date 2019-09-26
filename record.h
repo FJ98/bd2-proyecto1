@@ -15,13 +15,16 @@ class Record{
 public:
     string path;
     int pos;
-    int n ; //
+    int cantidadDeCampos ; //
     int size;
+    string* values;
+    string* attr;
     string* tipos; //
-    void setValues(string* tipos, int n){
+    void setValues(string* tipos,string* attr, int n){
         this->tipos = tipos;
-        this->n = n;
-
+        this->attr = attr;
+        this->cantidadDeCampos = n;
+        values = new string[n];
         int suma = 0;
         for (int i=0;i<n;i++){
             if (tipos[i] == "int")
@@ -36,10 +39,23 @@ public:
     };
 
     void getInputFromUser() {
+        cout <<  "Ingrese los valores de los campos :)";
+        cout << endl;
+        for(int i = 0; i < cantidadDeCampos; i++) {
+            cout << "Ingrese el valor para el campo "<< attr[i] <<" : ";
+            cin >> values[i];
+            cout << endl;
+        }
 
     }
 
-    void Imprimir();
+    void Imprimir(){
+        cout <<"Imprimiedo" << endl;
+        for(int i = 0; i < cantidadDeCampos; i++) {
+            cout << attr[i]<<" : " << values[i];
+        }
+
+    };
 
     int getSize(){
         return size;
